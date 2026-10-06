@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Космические Рейнджеры 2: Мобильный Порт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="space">
+        <div id="score-board" class="ui-panel">
+            <div>рейнджер: <span class="text-white">Имя рейнджера</span></div>
+            <div>минералов: <span id="score" class="text-magenta">0</span></div>
+        </div>
+        <div id="controls" class="ui-panel">
+            <button id="turn-btn">СЛЕДУЮЩИЙ ХОД (Пробел)</button>
+        </div>
+
+        <div id="sun" class="space-object" style="left: 50%; top: 50%;">
+            <img src="sun_sprite.webp" alt="Солнце" class="sprite-img">
+        </div>
+
+        <div id="ranger" style="left: 30%; top: 30%;">
+            <img src="PelengR0000.webp" alt="Рейнджер" class="sprite-img">
+        </div>
+        <div id="target-line"></div>
+    </div>
+    <div id="overlay"></div>
+    <div id="modal">
+        <h3>ВНИМНИЕ</h3>
+        <p>Хочешь начать покорять планеты уже сейчас? заглядывай в релизы на гитхабе <strong>триничя</strong> и скачивай свежий билд порта Космических Рейнджеров 2 для мобильных устройств на андроид!</p>
+        <button id="modal-close-btn">ОК</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
